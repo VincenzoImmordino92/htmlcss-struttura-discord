@@ -11,24 +11,141 @@
   flex-wrap: wrap;
 }
 
+/* crezione dei box wrap */
+
 .box{
   display: flex;
   height: 100px;
-  background-color: rgb(111, 111, 111);
+  background-color: rgb(180, 180, 180);
   border: 2px solid yellow;
   align-content: flex-start;
 }
 
+/* primo box nav */
+
 .menu{
   height: 50px;
   background-color: rgb(120, 164, 240);
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .nav{
-  height: 40px;
-  width: 200px;
+  display: flex;
+  height: 20px;
+  width: calc(100%/3);
   background-color: chocolate;
+  border: 1px solid black;
+  align-items: center;
 }
+
+.nav .logo{
+height: 20px;
+width: 100px;
+border: 1px solid black;
+text-align: left;
+}
+
+.nav .link{
+ text-align: center;
+  height:20px;
+  width: 300px;
+  align-items: center;
+}
+
+.nav .login{
+height: 20px;
+width: 100px;
+border: 1px solid black;
+text-align: right;
+}
+
+/* /primo box nav */
+
+/* secondo box iniziale */
+
+ .iniziale{
+  background-color: rgb(5, 5, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+}
+
+.iniziale .rosa{
+  width: 260px;
+  height: 170px;
+  background-color: rgb(197, 79, 207);
+  border: 1px dashed white;
+}
+
+/* /secondo box iniziale */
+
+/* terzo box central white */
+
+.central.white:nth-child(1n+0){
+display: flex;
+background-color:white;
+height: 200px;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+}
+
+.central.white .content{
+  height:170px;
+  border: 1px dashed black;
+}
+
+.content.left{
+  width: 180px;
+  background-color:rgb(19, 96, 239);
+}
+
+.content.right{
+  width: 120px;
+  background-color: pink;
+}
+
+/* /terzo box central white */
+
+/* quarto box central greey */
+
+.central.greey{
+display: flex;
+background-color: rgb(180, 180, 180);
+height: 200px;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+}
+
+.central.greey .content{
+  height:170px;
+  border: 1px dashed black;
+}
+
+/* /quarto box central greey */
+
+
+.final.greey{
+  display: flex;
+  background-color: rgb(180, 180, 180);
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.green{
+  display: flex;
+  background-color: green;
+  height: 380px;
+  width: 300px;
+  border: 1px dashed black;
+}
+
+
+
 
