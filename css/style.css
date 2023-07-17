@@ -17,8 +17,7 @@
   display: flex;
   height: 100px;
   background-color: rgb(180, 180, 180);
-  border: 2px solid yellow;
-  align-content: flex-start;
+  
 }
 
 /* primo box nav */
@@ -129,22 +128,82 @@ align-items: center;
 
 /* /quarto box central greey */
 
+/* quinto box final greey */
 
 .final.greey{
-  display: flex;
   background-color: rgb(180, 180, 180);
   height: 400px;
   justify-content: center;
   align-items: center;
 }
 
-.green{
+.final.greey .green{
   display: flex;
   background-color: green;
-  height: 380px;
+  height: 360px;
   width: 300px;
   border: 1px dashed black;
 }
+
+/* /quinto box final greey */
+
+/* sesto box information */
+
+.information{
+  background-color: rgb(39, 37, 37);
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  border: 1px dashed black;
+}
+ .information .column{
+  height: 280px;
+  width: 45px;
+  background-color: darkcyan;
+  border: 1px dashed black;
+ }
+
+.column.first{
+  background-color: pink;
+  width: 120px;
+ }
+
+ /* sesto box information */
+
+ /* settimo box bottom */
+
+ .bottom{
+  background-color: rgb(39, 37, 37);
+  justify-content: center;
+  align-items: end;
+ }
+
+ .bottom .foot{
+  display: flex;
+  width: 300px;
+  height: 30px;
+  background-color: rgb(17, 225, 225);
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .foot .logo-foot{
+  width: 25px;
+  height: 10px;
+  background-color: darksalmon;
+  border: 1px dashed black;
+}
+
+.foot .botton-foot{
+  width: 25px;
+  height: 10px;
+  background-color: darksalmon;
+  border: 1px dashed black;
+} 
+
 
 
 
