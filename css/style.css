@@ -6,9 +6,9 @@
 
 .container{
   margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 98%;
+  max-width: 1200px;
+ 
 }
 
 /* crezione dei box wrap */
@@ -99,12 +99,12 @@ align-items: center;
 }
 
 .content.left{
-  width: 180px;
+  width: 75%;
   background-color:rgb(19, 96, 239);
 }
 
 .content.right{
-  width: 120px;
+  width: 25%;
   background-color: pink;
 }
 
@@ -183,7 +183,6 @@ align-items: center;
  .bottom .foot{
   display: flex;
   width: 300px;
-  height: 30px;
   background-color: rgb(17, 225, 225);
   border: 1px solid black;
   justify-content: space-between;
